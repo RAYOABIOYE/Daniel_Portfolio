@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEATURED WORKS</title>
+    <link rel="stylesheet" href="./featured.css">
+    <link rel="icon" type="image/x-icon" href="./bluecam.jpg">
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ion-icon name="menu-outline" class="ion" id="menuIcon"></ion-icon>
+            <label class="logo">
+                <a href="#">LET'S TALK 
+                    <span style="color: yellow; font-size: 20px; font-weight: bolder;">&rarr;</span>
+                </a>
+            </label>
+            <ul id="menuItems">
+                <li><a href="./portfolio.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a class="active" href="./featured.html">FEATURED WORKS</a></li>
+                <li><a href="./projects.html">PROJECTS</a></li>
+                <li><a href="https://www.creativeboom.com/resources/">BLOGS</a></li>
+            </ul>
+            <div class="empty"></div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Capturing Moments, Telling Stories</h2>
+            <p>Explore the world through Daniel's lens.</p>
+            <a href="#gallery" class="btn">View Gallery</a>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="content">
+            <h2>About Daniel</h2>
+            <p>Daniel is a passionate photographer with a keen eye for capturing the beauty in everyday moments. With a portfolio ranging from stunning landscapes to intimate portraits, Daniel's work tells a story that words often cannot.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Featured Works</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="./sunrise3.jpg" alt="Ethereal Sunrise">
+                <div class="gallery-item-info">
+                    <h3>Ethereal Sunrise</h3>
+                    <p>March 2023</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./autumn2.jpg" alt="Whispers of Autumn">
+                <div class="gallery-item-info">
+                    <h3>Whispers of Autumn</h3>
+                    <p>October 2022</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./light1.jpg" alt="City Lights Symphony">
+                <div class="gallery-item-info">
+                    <h3>City Lights Symphony</h3>
+                    <p>December 2023</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./rain1.webp" alt="Silent Serenity">
+                <div class="gallery-item-info">
+                    <h3>Silent Serenity</h3>
+                    <p>July 2023</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./winter1.jpg" alt="Winter Wonderland">
+                <div class="gallery-item-info">
+                    <h3>Winter Wonderland</h3>
+                    <p>January 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./heavy1.jpg" alt="Winter Wonderland">
+                <div class="gallery-item-info">
+                    <h3>Rainfall</h3>
+                    <p>January 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./sunset1.jpg" alt="Winter Wonderland">
+                <div class="gallery-item-info">
+                    <h3>Rural Sunset</h3>
+                    <p>January 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./flash1.jpg" alt="Winter Wonderland">
+                <div class="gallery-item-info">
+                    <h3>Lightning Storm</h3>
+                    <p>January 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Daniel</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Daniel's Photography. All rights reserved.</p>
+    </footer>
+
+    <script src="./portfolio.js"></script>
+</body>
+</html>
