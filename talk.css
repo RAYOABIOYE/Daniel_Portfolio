@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(78, 77, 77, 0.7), #111111), url(./tree.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    border: 2px solid white;
+  background-color: #fff;
+  color: rgb(10, 10, 10);
+  font-weight: bolder;
+  width: 30%;
+  float: right;
+  margin-top: 5%;
+  margin-right: 60%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  opacity: 0.9;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* .contain{
+    display: flex;
+    flex-direction: row;
+    
+} */
+button:hover{
+    background: transparent;
+    color: white;
+}
+input:focus~label,
+input:user-valid~label,
+textarea:focus~label,
+textarea:user-valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}
+a {
+  border: 2px solid white;
+  background-color: #fff;
+  color: rgb(3, 3, 3);
+  font-weight: bolder;
+  width: 30%;
+  float: right;
+  margin-top: -6%;
+  margin-right: 25%;
+  text-align: center;
+  padding: 7px;
+  border-radius: 20px;
+  opacity: 0.9;
+  text-decoration: none;
+}
+a:hover{
+    background: transparent;
+    color: white;
+}
